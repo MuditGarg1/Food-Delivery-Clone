@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # 🍽️ Food Delivery App Clone
 
-A simple and responsive **Food Delivery App Clone** built using **React** and **Vite**. This project mimics the core features of modern food delivery apps like Zomato or Swiggy.
+A simple, responsive **Food Delivery App Clone** built with **React** and **Vite**.  
+This project mimics the core features of modern food delivery apps like Zomato or Swiggy.
 
 ---
 
@@ -22,22 +9,22 @@ A simple and responsive **Food Delivery App Clone** built using **React** and **
 
 - 🏪 Browse food items and restaurants
 - 🔍 Search for dishes
-- 🛒 Add to cart and place order
+- 🛒 Add items to cart and place orders
 - 💳 Basic checkout interface
-- 📱 Responsive layout using CSS
-- ⚙️ Routing with React Router
+- 📱 Fully responsive layout with CSS
+- ⚙️ Client-side routing using React Router
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech         | Usage                         |
+| Tech         | Description                   |
 |--------------|-------------------------------|
-| React        | UI Library                    |
+| React        | Frontend UI library           |
 | Vite         | Build tool & dev server       |
 | React Router | Client-side routing           |
 | CSS          | Styling                       |
-| Git & GitHub | Version control and hosting   |
+| Git & GitHub | Version control & deployment  |
 
 ---
 
@@ -48,10 +35,16 @@ A simple and responsive **Food Delivery App Clone** built using **React** and **
 - Node.js (v18 or later)
 - npm or yarn
 
-### Installation
+---
+
+### 🚀 Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/your-username/food-delivery-clone.git
+
+# Navigate to the project directory
 cd food-delivery-clone
+
+# Install dependencies
 npm install
->>>>>>> eb01f237640c8ce5a4f5d0c2b474e169a5698183
