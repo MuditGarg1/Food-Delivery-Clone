@@ -1,3 +1,4 @@
+import "dotenv/config";
 import mongoose from 'mongoose';
 import fs from 'fs';
 import path from 'path';
@@ -11,7 +12,7 @@ import userModel from './models/userModel.js';
 import shopModel from './models/shopModel.js';
 import foodModel from './models/foodModel.js';
 
-const MONGO_URI = 'mongodb://127.0.0.1:27017/food-del';
+const MONGO_URI = process.env.MONGO_URI;
 
 // Raw data to seed
 const food_list_raw = [
