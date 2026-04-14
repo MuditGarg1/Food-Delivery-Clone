@@ -1,0 +1,133 @@
+.my-orders {
+    margin: 50px 0px;
+}
+.my-orders .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.my-orders-order {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    padding: 15px;
+    border: 1px solid tomato;
+    border-radius: 8px;
+    color: #454545;
+}
+.my-orders-order p {
+    margin: 0;
+}
+.my-orders-order span {
+    color: tomato;
+}
+.btn-track {
+    background: #ffe1e1;
+    color: tomato;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-rate {
+    background: #ffeb3b;
+    color: #333;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.rated-tag {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-cancel-order {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.btn-cancel-order:hover {
+    background: #e53e3e;
+}
+
+@media (max-width: 900px) {
+    .my-orders-order {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 15px;
+        padding: 20px;
+    }
+    .order-items {
+        grid-column: 1/-1;
+    }
+}
+
+/* Rating Modal Overlay */
+.rating-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.rating-modal {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.rating-modal h3, .rating-modal h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.rating-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.food-rating {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+}
+.btn-cancel {
+    background: #eee;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn-submit {
+    background: tomato;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
